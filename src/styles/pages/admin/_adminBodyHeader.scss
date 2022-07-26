@@ -1,0 +1,21 @@
+.admin__bodyHeader {
+  @include item__blog--flex;
+  margin: 8rem 0 2rem;
+
+  &--header {
+    margin: 0 3rem 0 0;
+  }
+}
+
+.btn__admin--create {
+  font-size: 1.5rem;
+  background-color: var(--color-blue);
+  border: none;
+  padding: 1rem;
+  border-radius: 0.5rem;
+
+  &-link {
+    color: #fff;
+    text-decoration: none;
+  }
+}

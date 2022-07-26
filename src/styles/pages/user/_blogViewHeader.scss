@@ -1,0 +1,14 @@
+.blog__header--title {
+  font-size: 4rem;
+  font-weight: 400;
+  margin: 10rem auto 0;
+}
+
+.blog__header--author-date {
+  @include author-date;
+  @include item__blog--flex;
+}
+
+.blog__header--author {
+  margin-right: 4rem;
+}

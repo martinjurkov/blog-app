@@ -1,0 +1,58 @@
+:root {
+  --color-blue: #2b7efb;
+  --color-red: #ec5757;
+  --color-pink: #ff9797;
+  --color-grey-1: rgb(240, 240, 240);
+  --color-grey-2: rgb(120, 120, 120);
+  --color-grey-3: rgb(200, 200, 200);
+}
+
+@mixin header__btns {
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+  transition: all 0.2s;
+}
+
+@mixin header__flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin item__blog--flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+@mixin author-date {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: var(--color-grey-2);
+}
+
+@mixin login__email-password {
+  margin: 0 0 2rem;
+  width: 100%;
+
+  label {
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+
+  input {
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--color-grey-2);
+    border-radius: 0.25rem;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}

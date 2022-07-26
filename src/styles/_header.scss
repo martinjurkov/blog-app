@@ -1,0 +1,55 @@
+@import './variables/variables';
+
+header {
+  padding: 0.5rem 10rem;
+  background-color: var(--color-grey-1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 50;
+
+  @include header__flex;
+}
+
+.header__left {
+  width: 25%;
+
+  @include header__flex;
+
+  button {
+    @include header__btns;
+    color: #000;
+
+    &:hover {
+      color: var(--color-grey-2);
+    }
+  }
+}
+
+.header__right {
+  &--btn {
+    @include header__btns;
+    padding: 1rem;
+    border-radius: 0.5rem;
+
+    &-link {
+      text-decoration: none;
+      color: var(--color-blue);
+    }
+
+    &:hover {
+      box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+    }
+  }
+}
+
+.btn__recent--link {
+  text-decoration: none;
+  color: #000;
+  transition: all 0.2s;
+
+  &:hover {
+    color: var(--color-grey-2);
+  }
+}

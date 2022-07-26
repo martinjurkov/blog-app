@@ -1,0 +1,36 @@
+.admin__item {
+  display: grid;
+  grid-template-columns: 20% 35% 15% 15% 15%;
+  justify-items: start;
+  align-items: center;
+
+  font-size: 1.5rem;
+  border-bottom: 1px solid var(--color-grey-3);
+  padding: 0 1rem;
+
+  &--title {
+    background-color: transparent;
+    border: none;
+    text-align: start;
+
+    &-link {
+      color: #000;
+      text-decoration: none;
+      font-size: 1.5rem;
+    }
+  }
+
+  &--author {
+    justify-self: center;
+  }
+
+  &--comments {
+    justify-self: center;
+  }
+}
+
+.btn__edit-delete {
+  background-color: transparent;
+  border: none;
+  margin-right: 1rem;
+}

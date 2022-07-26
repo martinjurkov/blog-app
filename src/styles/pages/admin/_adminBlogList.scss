@@ -1,0 +1,17 @@
+.admin__list--titles {
+  display: grid;
+  grid-template-columns: 20% 35% 15% 15% 15%;
+  justify-items: start;
+  align-items: center;
+
+  border-bottom: 2px solid var(--color-grey-3);
+  padding: 0 1rem;
+
+  &-author {
+    justify-self: center;
+  }
+
+  &-comments {
+    justify-self: center;
+  }
+}

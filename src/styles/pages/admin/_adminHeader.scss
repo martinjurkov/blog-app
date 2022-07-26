@@ -1,0 +1,53 @@
+.admin__header--right {
+  width: 25%;
+  @include header__flex;
+}
+
+.btn__my-articles {
+  @include header__btns;
+
+  &:hover {
+    color: var(--color-grey-2);
+  }
+
+  &--link {
+    text-decoration: none;
+    color: #000;
+
+    &:hover {
+      color: var(--color-grey-2);
+    }
+  }
+}
+
+.btn__create {
+  @include header__btns;
+
+  &--link {
+    color: var(--color-blue);
+    text-decoration: none;
+  }
+}
+
+.btn__recent--link {
+  color: #000;
+  text-decoration: none;
+
+  &:hover {
+    color: var(--color-grey-2);
+  }
+}
+
+.btn__profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  border: none;
+}
+
+.btn__logout {
+  background-color: transparent;
+  border: none;
+}

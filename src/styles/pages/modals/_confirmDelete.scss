@@ -1,0 +1,75 @@
+.overlay {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(1px);
+  position: fixed;
+}
+
+.modal__deletion {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 300px;
+  background-color: #fff;
+  z-index: 100;
+  padding: 50px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+
+  display: flex;
+  flex-direction: column;
+
+  &--heading {
+    font-size: 3rem;
+    margin: 0;
+  }
+
+  &--text {
+    color: #888eb0;
+    margin: 10px 0 40px 0;
+    font-size: 1.5rem;
+  }
+
+  &--btns {
+    align-self: flex-end;
+
+    &-cancel {
+      background-color: var(--color-grey-1);
+      border: none;
+      font-size: 1.5rem;
+      padding: 1rem 1.5rem;
+      margin-right: 1rem;
+      border-radius: 0.75rem;
+      transition: all 0.2s;
+
+      &:hover {
+        background-color: var(--color-grey-3);
+      }
+    }
+
+    &-delete {
+      background-color: var(--color-red);
+      border: none;
+      padding: 1rem 1.5rem;
+      margin-right: 1rem;
+      border-radius: 0.75rem;
+      transition: all 0.2s;
+
+      &:hover {
+        background-color: var(--color-pink);
+      }
+    }
+
+    &-link {
+      color: #fff;
+      font-size: 1.5rem;
+      text-decoration: none;
+    }
+  }
+}

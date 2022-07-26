@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 1rem = 10px, 10px/16px = 62.5%
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  min-height: 100vh;
+}
+
+main {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.article__container {
+  width: 80%;
+  margin: 5rem auto;
+}
+
+.admin__container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.btn {
+  cursor: pointer;
+}

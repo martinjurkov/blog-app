@@ -1,0 +1,22 @@
+.edit__article {
+  width: 45vw;
+  margin: 0 auto;
+
+  &--header {
+    @include item__blog--flex;
+    margin: 8rem 0 3rem;
+  }
+
+  &--title {
+    margin: 1rem 2rem 0 0;
+  }
+
+  &--btn {
+    background-color: var(--color-blue);
+    color: #fff;
+    font-size: 1.5rem;
+    border: none;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+  }
+}
