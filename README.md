@@ -32,5 +32,5 @@ Users should be able to:
  - implement comment form and better comments structure
 
 ## Links
- - Solution URL: <a href=>GitHub</a>
+ - Solution URL: <a href=https://github.com/martinjurkov/blog-app>GitHub</a>
  - Live Site URL: <a href=/>Live</a>
