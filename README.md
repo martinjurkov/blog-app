@@ -33,4 +33,4 @@ Users should be able to:
 
 ## Links
  - Solution URL: <a href=https://github.com/martinjurkov/blog-app>GitHub</a>
- - Live Site URL: <a href=/>Live</a>
+ - Live Site URL: <a href=https://blog-app-delta-two.vercel.app//>Live</a>
